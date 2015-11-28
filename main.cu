@@ -282,7 +282,7 @@ main (int argc, char **argv) {
   cudaFree(d_incr);
   delete [] h_array;
   delete [] h_aux;
-  delete [] h_incr
+  delete [] h_incr;
   delete [] h_result;
   delete [] serial_result;
   return 0;
